@@ -1,0 +1,27 @@
+.seccion {
+    width: calc(100% - 80px);
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+    color: white;
+    border: 3px solid white;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+    min-height: 50vh;
+    align-items: flex-start;
+    animation: zoomIn 0.3s ease;
+    height: auto;
+    min-height: 50vh;
+    overflow-x: hidden;
+    
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

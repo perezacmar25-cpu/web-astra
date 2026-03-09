@@ -1,0 +1,46 @@
+.parrafo{
+
+    margin-bottom: 0;
+}
+
+
+.portfolio{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: space-between;
+    
+    
+}
+
+.portfolio img{
+
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.fila2{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: space-between;
+
+
+
+}
+
+
+.fila2 img{
+
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+
+ 

@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.seccion {
+    padding: 40px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 40px white;
+    color: white;
+    display: flex;
+    gap: 100px;
+    min-height: 50vh;
+    flex-direction: column;
+
+
+
+}
+
+#como-pa {
+    width: 200px;
+
+    height: 200px;
+}
+
+#como-pa:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.envoltura-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+#astraHome {
+
+    width: 200px;
+    height: 200px;
+
+}
