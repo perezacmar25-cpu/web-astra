@@ -1,6 +1,6 @@
 import React from 'react'
 import Chansey from '../../assets/Chansey.png';
-import Asumelo from'../../assets/asumelo.png';
+import Asumelo from'../../assets/asumelo.PNG';
 import './MusicaComponent.css';
 
 function MusicaComponent() {
